@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincennt a, chgrp -Rstaff  
+chown -R vincennt, chgrp -Rstaff  
