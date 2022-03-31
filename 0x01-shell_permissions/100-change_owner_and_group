@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp vincennt *, g staff 
+chgrp vincennt * 
