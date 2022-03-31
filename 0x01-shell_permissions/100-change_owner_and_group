@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp ag vincent staff * 
+chgrp vincennt *, g staff 
