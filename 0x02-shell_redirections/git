@@ -1,4 +1,6 @@
 #!/bin/bash
+read y
+chmod u+x $y
 git add .
 read x
 git commit -m $x
