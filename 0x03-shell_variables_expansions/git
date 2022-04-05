@@ -1,0 +1,7 @@
+#!/bin/bash
+read x
+chmod +x $x
+git add .
+read y
+git commit -m "$y"
+git push
