@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+read x
+while x == 'y':
+	read a
+	read f
+	echo '$a'>"$f".txt
+exit
