@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #exteracts IP_HTTP_CODE form apache log
 
-awk '{print $1}' apache-access.log
+awk '{print $1 " " $9}' apache-access.log
