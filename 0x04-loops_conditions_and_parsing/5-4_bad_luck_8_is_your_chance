@@ -16,7 +16,7 @@ while [ $i -lt 11 ]
 	then
 	echo "good luck"
 	else
-	echo "Best Scool"
+	echo "Best School"
 	fi
 	((i++))
 done	
