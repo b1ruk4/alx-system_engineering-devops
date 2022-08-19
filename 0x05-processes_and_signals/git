@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+echo "
+#########################################
+# Lazy push # Author : Bk #
+#########################################
+" 
+echo "Enter the name of the file." 
+read x
+chmod +x $x
+./$x
+shellcheck $x
+git add $x 
+echo "Enter commit message" 
+read c 
+git commit -m "${c}"
+git push
