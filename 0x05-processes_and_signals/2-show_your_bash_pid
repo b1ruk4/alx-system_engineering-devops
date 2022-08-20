@@ -2,4 +2,4 @@
 # Display all processes that are bash
 # shellcheck disable=SC2009
 
-ps auxf -C bash
+ps auxf | grep bash
