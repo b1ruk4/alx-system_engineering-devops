@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays all processes running using thir process name bash
 
-pgrep -a bash
+pgrep bash -l
