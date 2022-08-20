@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display all processes that are bash
+# shellcheck disable=SC2009
+
+ps auxf -C bash
